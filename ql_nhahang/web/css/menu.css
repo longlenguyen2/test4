@@ -1,0 +1,70 @@
+
+//menu_left
+#menu_left{
+width:150px;
+}
+#menu_left ul{
+list-style-type:none;
+margin:0px;
+padding:0px;
+}
+#menu_left ul a{
+text-decoration:none;
+line-height:25px;
+color:#b30000;
+display:block;
+width:150px;
+border-top:1px solid #FFFFFF;
+border-bottom:1px solid #CCCCCC;
+}
+#menu_left ul a:hover{
+background:#FFCC99;
+}
+#menu_left ul a:active{
+background:#FFCC99;
+}
+
+///////////////////
+#menu ul{
+list-style: none;
+font-family: Arial, san-serif;
+font-size: 12px;
+padding: 0;
+}
+#menu ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    left: -40px;
+}
+ 
+#menu ul a{
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    font-weight:bold;
+    padding:5px 5px;
+    background:#850000;
+    border-left:1px solid #fff;
+    width: auto;
+    font-size: 14px;
+}
+ 
+#menu ul a:hover{
+    background:#555;
+}
+ 
+//CSS Tạo Menu Cấp 2
+#menu li ul a{
+    background:#444;
+}
+ 
+#menu li ul{
+    position:absolute;
+    display:none;
+    width:200px;
+}
+ 
+#menu li:hover ul{
+    display:block;
+}

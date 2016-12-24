@@ -1,0 +1,51 @@
+table{
+    width: 990px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CDCDCD;
+    margin-bottom: 10px;
+}
+tr.head{
+    background: #850000;
+    color: white;
+    height: 25px;
+    font-size: 12px;
+}
+head.null{
+    border-color: #850000;
+}
+#t1{
+    width: 400px;
+}
+tr.head1{
+    background: #850000;
+    color: white;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+}
+#name{
+    text-align:left;
+}
+#count{
+    text-align:center;
+}
+#money{
+    text-align: right;
+}
+#c1{
+    text-align: right
+}
+
+#c3{
+    text-align: right
+}
+
+#c5{
+    text-align: left
+}
+
+
+
+
+
